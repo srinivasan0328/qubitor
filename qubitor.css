@@ -1,0 +1,560 @@
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+/* navBar */
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.navBarSection {
+  /* background-color: #3c5555; */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* step3: componentContainer */
+.navBarContainer {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+/* step4: row */
+.navBody {
+  /* background-color: #c8cd3c; */
+  padding: 3rem 1rem;
+  box-shadow: 0 -10px 10px 5px #545656;
+}
+
+/* step5: column 1 */
+.logoBlock {
+  /* background-color: #7d4c4c; */
+}
+
+/* step6: subColumn 1 */
+.logoBox {
+  /* background-color: #b8860b; */
+}
+
+/* step7: contentContainer */
+.logoBox img {
+  /* background-color: #a52a2a; */
+}
+
+/* step5: column 2 */
+.navLinkBlock {
+  /* background-color: #ffff00; */
+}
+
+/* step6: subColumn 1 */
+.navLinkBox {
+  /* background-color: #deb887; */
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* step7: contentContainer */
+.navLinkBox li {
+  /* background-color: #9acd32; */
+  list-style: none;
+}
+
+.navLinkBox a {
+  /* background-color: #d2691e; */
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primaryColor);
+}
+
+.navLinkBox a:hover{
+  color: var(--tertiaryColor);
+  font-size: 2.2rem;
+}
+
+/* hero */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.heroSection {
+  /* background-color: #40e0d0; */
+}
+
+/* step3: componentContainer */
+.heroContainer {
+  /* background-color: #ff6347; */
+  background-image: url(./assets/images/hero-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* step4: row */
+.heroBody {
+  /* background-color: #00ffff; */
+  padding-top: 30rem;
+}
+
+/* step5: column */
+.heroBlock {
+  /* background-color: #bb986c; */
+  /* padding: 1rem 2rem; */
+}
+
+/* step6: subColumn */
+.heroBox {
+  /* background-color: #10dab2; */
+  width: 100%;
+  text-align: center;
+  
+}
+
+/* step7: contentContainer */
+.heroBox h1 {
+  /* background-color: #7fff00; */
+  font-size: 5.5rem;
+  font-family: var(--ffPrimary);
+  margin-bottom: 2rem;
+  color: var(--lightColor);
+  
+}
+
+.heroBox button {
+  background-color: var(--darkColor);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.heroBox button:hover {
+  background-color: var(--lightColor);
+}
+
+
+/* about */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.aboutUsSection{
+  /* background-color: #7ababa; */
+}
+
+/* step3: componentContainer */
+.aboutContainer{
+  /* background-color: #e8e2e2; */
+  /* background: linear-gradient(to right,#333030,#ffffff); */
+
+}
+
+/* step4: row 1 */
+.aboutUsBody{
+  /* background-color: #b384b3; */
+  /* grid-template-columns: 1fr 2fr; */
+  column-gap: 3rem;
+  padding: 2rem 3rem;
+}
+
+/* step5: column1 */
+.aboutUsImageBlock{
+  /* background-color: #8a2be2; */
+}
+
+/* step6: subColumn1 */
+.aboutUsImageBox{
+  /* background-color: #e1dc87;  */
+}
+
+/* step7: contentContainer */
+.aboutUsImageBox img{
+  /* background-color: #a55959; */
+}
+
+/* step5: column2 */
+.aboutUsBlock{
+  /* background-color: #8e8e55; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* step6: subColumn1 */
+.abutUsBox{
+  /* background-color: #508250; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+/* step7: contentContainer */
+.abutUsBox h2{
+  /* background-color: #e56464; */
+  font-size: 2.5rem;
+  color: var(--primaryColor);
+  margin-bottom: 2rem;
+  font-family: var(--ffPrimary);
+  text-align: justify;
+  text-transform: capitalize;
+}
+
+.abutUsBox p{
+  /* background-color: #387d60; */
+  color: var(--primaryColor);
+  margin-bottom: 2rem;
+  font-family: var(--ffSecondary);
+  text-align: justify;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.abutUsBox span{
+  /* background-color: #ffff00; */
+
+  color: #a52a2a;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* labCard */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.labSection{
+  /* background-color: #ffffff; */
+  padding: 0rem 1rem;
+}
+
+/* step3: componentContainer */
+.labContainer{
+  /* background-color: #dedad3; */
+  background-color: #bdbdb7;
+  padding: 2rem 1rem;
+  border-radius: 15px;
+}
+
+/* step4: row 1 */
+.headingBody{
+  /* background-color: #ffff00; */
+}
+
+/* step5: column 1 */
+.headingBlock{
+  /* background-color: #a52a2a; */
+}
+
+/* step6: subColumn 1*/
+.headingBox{
+  /* background-color: #0000ff; */
+  width: 100%;
+}
+
+.headingBox h2{
+  /* background-color: #414190; */
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: var(--ffPrimary);
+  margin-bottom: 3rem;
+  color: var(--primaryColor);
+}
+
+/* step4: row 2 */
+.labBody{
+  /* background-color:#00ff1a; */
+  column-gap: 5rem;
+  row-gap: 4rem;
+  padding: 2rem 1rem;
+}
+
+/* step5: column 1 */
+.labBlock{
+  /* background-color: #ee82ee; */
+  background: linear-gradient(to top,#737272,#dbd9d9);
+  display: flex;
+  align-items: flex-start;
+  justify-items: center;
+  border-radius: 10px;
+}
+
+/* step6: subColumn 1*/
+.labCard{
+  /* background-color: #ff6347; */
+}
+
+/* cardHead */
+.labCardHead{
+  /* background-color: #d2b48c; */
+  width: 100%;
+  /* margin-bottom: 2rem; */
+  padding: 1rem 0rem;
+}
+
+/* step7: contentContainer */
+.labCardHead h3{
+  /* background-color: #846237; */
+  font-size: 2rem;
+  font-family: var(--ffPrimary);
+  color: var(--primaryColor);
+  text-align: center;
+}
+
+/* cardBody */
+.labCardBody{
+  /* background-color: #008080; */
+}
+
+.labBody p{
+  /* background-color: #577930; */
+  font-weight: 500;
+  text-align: justify;
+  padding: 2rem 3rem;
+}
+
+/* video */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.videoSection{
+  /* background-color: #7ababa; */
+}
+
+/* step3: componentContainer */
+.videoContainer{
+  /* background-color: #ffffff; */
+  /* background: linear-gradient(to right,#333030,#ffffff); */
+}
+
+/* step4: row 1 */
+.videoBody{
+  /* background-color: #b384b3; */
+  /* background: linear-gradient(to right,#434343,#dbd9d9); */
+  column-gap: 3rem;
+  padding: 4rem 3rem;
+}
+
+/* step5: column1 */
+.aboutVideoBlock{
+  /* background-color: #8a2be2; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+}
+
+/* step6: subColumn1 */
+.aboutVideoBox{
+  /* background-color: #e1dc87;  */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* step7: contentContainer */
+.aboutVideoBox h2{
+  /* background-color: #d1c627; */
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.abtContent h3{
+  /* background-color: #b959b7; */
+  margin-bottom: 1.5rem;
+}
+
+.abtContent h4{
+  /* background-color: #a5a159; */
+  margin-bottom: 2rem;
+}
+
+.abtContent h4 a{
+  color: #2f5ffb;
+  text-decoration: underline;
+}
+
+.abtContent a{
+  /* background-color: #59a596; */
+  text-decoration: none;
+  color: var(--secondaryColor);
+  
+}
+
+.abtContent p{
+  /* background-color: #453c9b; */
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.abtContent {
+  background: linear-gradient(to left,#737272,#dbd9d9);
+  padding: 2rem;
+  border-radius: 10px;
+  
+}
+
+.h3a{
+  color: #a52a2a;
+}
+
+.abtVidHr{
+  /* color: #000000; */
+  margin: 1rem;
+  border: 1.5px solid #0f1122;
+  width: 90%;
+}
+
+/* step5: column2 */
+.videoBlock{
+  /* background-color: #8e8e55; */
+}
+
+/* step6: subColumn1 */
+.videoBox{
+  /* background-color: #508250; */
+}
+
+/* step7: contentContainer */
+.videoBox h3{
+  /* background-color: #e56464; */
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+.videoBox iframe{
+  /* background-color: #ff6347; */
+  height: 30rem;
+  margin-bottom: 2rem;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.videoBox p{
+  /* background-color: #387d60; */
+  color: #a52a2a;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+/* footer */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.footerSection{
+  background-color: #ffffff;
+}
+
+/* step3: componentContainer */
+.footerContainer{
+  /* background-color: #3f3f81; */
+}
+
+/* step4: row 1 */
+.footerBody{
+  /* background-color: #b384b3; */
+  padding: 3rem;
+}
+
+/* step5: column1 */
+.footerIconBlock{
+  /* background-color: #8a2be2; */
+}
+
+/* step6: subColumn1 */
+.footerIconBox{
+  /* background-color: #e1dc87;  */
+}
+
+/* step7: contentContainer */
+.footerIconBox i{
+  /* background-color: #a55959; */
+  padding-left: 2rem;
+  font-size: 2.5rem;
+}
+
+.footerIconBox p{
+  /* background-color: #8a2be2; */
+  font-weight: 600;
+}
+/* step5: column2 */
+.footerBlock{
+  /* background-color: #8e8e55; */
+}
+
+/* step6: subColumn1 */
+.footerBox{
+  /* background-color: #508250; */
+}
+
+/* step7: contentContainer */
+.footerBox a{
+  /* background-color: #387d60; */
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--primaryColor);
+}
+
+.footerContainer span{
+  /* background-color: #f4a460; */
+  color: var(--tertiaryColor);
+}
+
+hr{
+  /* background-color: #48a0a0; */
+  border: 1px solid #000000;
+}
+
+/* step4: row 2 */
+.copyRightsBody{
+  /* background-color: #ffff00; */
+  padding: 2rem 2rem 0rem ;
+}
+
+/* step5: column1 */
+.copyRightsBlock{
+  /* background-color: #40e0d0; */
+}
+
+/* step6: subColumn1 */
+.copyRightsBox{
+  /* background-color: #d2b48c; */
+}
+
+/* step7: contentContainer */
+.copyRightsBox p{
+  /* background-color: #c3d279; */
+  font-weight: 600;
+}
